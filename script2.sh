@@ -9,6 +9,9 @@ DBNAME='loveyoun_arabicexpres';
 install_require()
 {
   clear
+install_require()
+{
+  clear
   echo "Updating your system."
   {
     apt-get -o Acquire::ForceIPv4=true update
